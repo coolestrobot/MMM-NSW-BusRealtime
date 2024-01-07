@@ -1,0 +1,4451 @@
+{
+    "version": "10.2.1.42",
+    "systemMessages": [],
+    "journeys": [
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 240,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:11:00Z",
+                        "departureTimePlanned": "2024-01-07T20:11:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:11:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T20:15:00Z",
+                        "arrivalTimePlanned": "2024-01-07T20:15:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:15:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 13,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998671",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:11:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:12:00Z",
+                            "departureTimePlanned": "2024-01-07T20:12:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:13:00Z",
+                            "departureTimePlanned": "2024-01-07T20:13:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:15:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 240,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:19:00Z",
+                        "departureTimePlanned": "2024-01-07T20:19:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:19:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T20:23:00Z",
+                        "arrivalTimePlanned": "2024-01-07T20:23:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:23:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 6,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998658",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:19:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:20:00Z",
+                            "departureTimePlanned": "2024-01-07T20:20:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:21:00Z",
+                            "departureTimePlanned": "2024-01-07T20:21:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:23:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 240,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:29:00Z",
+                        "departureTimePlanned": "2024-01-07T20:29:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:29:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T20:33:00Z",
+                        "arrivalTimePlanned": "2024-01-07T20:33:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:33:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 15,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998397",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:29:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:29:00Z",
+                            "departureTimePlanned": "2024-01-07T20:29:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:30:00Z",
+                            "departureTimePlanned": "2024-01-07T20:30:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:33:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 300,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:39:00Z",
+                        "departureTimePlanned": "2024-01-07T20:39:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:39:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T20:44:00Z",
+                        "arrivalTimePlanned": "2024-01-07T20:44:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:44:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 16,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998646",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:39:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:40:00Z",
+                            "departureTimePlanned": "2024-01-07T20:40:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:41:00Z",
+                            "departureTimePlanned": "2024-01-07T20:41:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:44:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 300,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:49:00Z",
+                        "departureTimePlanned": "2024-01-07T20:49:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:49:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T20:54:00Z",
+                        "arrivalTimePlanned": "2024-01-07T20:54:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:54:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 17,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998647",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:49:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:50:00Z",
+                            "departureTimePlanned": "2024-01-07T20:50:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:51:00Z",
+                            "departureTimePlanned": "2024-01-07T20:51:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T20:54:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "rating": 0,
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 300,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "platform",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "G2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10117225"
+                            },
+                            "coord": [
+                                -33.788958,
+                                151.072769
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            5,
+                            11
+                        ],
+                        "departureTimeBaseTimetable": "2024-01-07T20:59:00Z",
+                        "departureTimePlanned": "2024-01-07T20:59:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:59:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117152dep_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "true",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "areaGid": "G2122127",
+                            "area": "0",
+                            "platform": "X1"
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212214",
+                        "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                        "disassembledName": "Eastwood Station, West Pde, Stand A",
+                        "type": "platform",
+                        "coord": [
+                            -33.790514,
+                            151.081843
+                        ],
+                        "niveau": 0,
+                        "parent": {
+                            "isGlobalId": true,
+                            "id": "212210",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "stop",
+                            "parent": {
+                                "id": "95352005|1",
+                                "name": "Eastwood",
+                                "type": "locality"
+                            },
+                            "properties": {
+                                "stopId": "10101199"
+                            },
+                            "coord": [
+                                -33.790301,
+                                151.082297
+                            ],
+                            "niveau": 0
+                        },
+                        "modes": [
+                            1,
+                            5,
+                            11
+                        ],
+                        "arrivalTimeBaseTimetable": "2024-01-07T21:04:00Z",
+                        "arrivalTimePlanned": "2024-01-07T21:04:00Z",
+                        "arrivalTimeEstimated": "2024-01-07T21:04:00Z",
+                        "properties": {
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_7117153arr_7320_4544_22565203_00065b0.pdf"
+                                }
+                            ],
+                            "WheelchairAccess": "false",
+                            "AREA_NIVEAU_DIVA": "0",
+                            "area": "11",
+                            "platform": "A",
+                            "accessArray": [
+                                {
+                                    "stoppointAccess": {
+                                        "equipment": 0,
+                                        "maxWeight": 0,
+                                        "distanceTrack": 0,
+                                        "lengthAvail": 0,
+                                        "widthAvail": 0,
+                                        "attributes": 0
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "id": "nsw:27545: :R:sj2",
+                        "name": "Sydney Buses Network 545",
+                        "disassembledName": "545",
+                        "number": "545",
+                        "iconId": 5,
+                        "description": "Parramatta to Macquarie Park via Telopea & Eastwood",
+                        "product": {
+                            "class": 5,
+                            "name": "Sydney Buses Network",
+                            "iconId": 5
+                        },
+                        "operator": {
+                            "id": "2507",
+                            "name": "Busways North West"
+                        },
+                        "destination": {
+                            "id": "10113462",
+                            "name": "Lachlan's Line Estate",
+                            "type": "stop"
+                        },
+                        "properties": {
+                            "isTTB": true,
+                            "tripCode": 19,
+                            "timetablePeriod": "NSW JP",
+                            "lineDisplay": "LINE",
+                            "globalId": "3002",
+                            "RealtimeTripId": "1998893",
+                            "OperatorURL": "http://transportnsw.info"
+                        }
+                    },
+                    "stopSequence": [
+                        {
+                            "isGlobalId": true,
+                            "id": "2122127",
+                            "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                            "disassembledName": "Terry Rd opp Tarrants Ave",
+                            "type": "platform",
+                            "coord": [
+                                -33.788946,
+                                151.072866
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122127",
+                                "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                                "disassembledName": "Terry Rd opp Tarrants Ave",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117225"
+                                },
+                                "coord": [
+                                    -33.788958,
+                                    151.072769
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122127",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "departureTimePlanned": "2024-01-07T20:59:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122211",
+                            "name": "Terry Rd before Midson Rd, Eastwood",
+                            "disassembledName": "Terry Rd before Midson Rd",
+                            "type": "platform",
+                            "coord": [
+                                -33.788515,
+                                151.074993
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122211",
+                                "name": "Terry Rd before Midson Rd, Eastwood",
+                                "disassembledName": "Terry Rd before Midson Rd",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117285"
+                                },
+                                "coord": [
+                                    -33.788515,
+                                    151.074993
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122211",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T21:00:00Z",
+                            "departureTimePlanned": "2024-01-07T21:00:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "2122122",
+                            "name": "Hillview Rd opp Marist College, Eastwood",
+                            "disassembledName": "Hillview Rd opp Marist College",
+                            "type": "platform",
+                            "coord": [
+                                -33.788865,
+                                151.077502
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "G2122122",
+                                "name": "Hillview Rd opp Marist College, Eastwood",
+                                "disassembledName": "Hillview Rd opp Marist College",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10117221"
+                                },
+                                "coord": [
+                                    -33.788874,
+                                    151.077503
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "true",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "areaGid": "G2122122",
+                                "area": "0",
+                                "platform": "X1"
+                            },
+                            "arrivalTimePlanned": "2024-01-07T21:01:00Z",
+                            "departureTimePlanned": "2024-01-07T21:01:00Z"
+                        },
+                        {
+                            "isGlobalId": true,
+                            "id": "212214",
+                            "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                            "disassembledName": "Eastwood Station, West Pde, Stand A",
+                            "type": "platform",
+                            "coord": [
+                                -33.790514,
+                                151.081843
+                            ],
+                            "niveau": 0,
+                            "parent": {
+                                "isGlobalId": true,
+                                "id": "212210",
+                                "name": "Eastwood Station, West Pde, Stand A, Eastwood",
+                                "disassembledName": "Eastwood Station, West Pde, Stand A",
+                                "type": "stop",
+                                "parent": {
+                                    "id": "95352005|1",
+                                    "name": "Eastwood",
+                                    "type": "locality"
+                                },
+                                "properties": {
+                                    "stopId": "10101199"
+                                },
+                                "coord": [
+                                    -33.790301,
+                                    151.082297
+                                ],
+                                "niveau": 0
+                            },
+                            "modes": [
+                                1,
+                                5,
+                                11
+                            ],
+                            "properties": {
+                                "WheelchairAccess": "false",
+                                "AREA_NIVEAU_DIVA": "0",
+                                "area": "11",
+                                "platform": "A",
+                                "accessArray": [
+                                    {
+                                        "stoppointAccess": {
+                                            "equipment": 0,
+                                            "maxWeight": 0,
+                                            "distanceTrack": 0,
+                                            "lengthAvail": 0,
+                                            "widthAvail": 0,
+                                            "attributes": 0
+                                        }
+                                    }
+                                ]
+                            },
+                            "arrivalTimePlanned": "2024-01-07T21:04:00Z"
+                        }
+                    ],
+                    "infos": [
+                        {
+                            "priority": "normal",
+                            "id": "ems-7417",
+                            "version": "13982365",
+                            "type": "lineInfo",
+                            "urlText": "Buses may be operating at reduced service levels",
+                            "url": "https://transportnsw.info/alerts/details#/ems-7417",
+                            "content": "<div>Buses may be operating at reduced service levels, please check the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> before you travel</div>",
+                            "subtitle": "Buses may be operating at reduced service levels",
+                            "properties": {
+                                "publisher": "ems.comm.addinfo",
+                                "infoType": "lineInfo",
+                                "smsText": "Buses may be operating at reduced service levels",
+                                "speechText": "Buses may operate a reduced service level, please check the Trip Planner before you travel"
+                            }
+                        }
+                    ],
+                    "coords": [
+                        [
+                            -33.789008,
+                            151.07288
+                        ],
+                        [
+                            -33.788975,
+                            151.073007
+                        ],
+                        [
+                            -33.788827,
+                            151.073697
+                        ],
+                        [
+                            -33.788766,
+                            151.074077
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788597,
+                            151.075011
+                        ],
+                        [
+                            -33.788497,
+                            151.07556
+                        ],
+                        [
+                            -33.788241,
+                            151.076851
+                        ],
+                        [
+                            -33.788532,
+                            151.077143
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.788883,
+                            151.077467
+                        ],
+                        [
+                            -33.78905,
+                            151.077621
+                        ],
+                        [
+                            -33.789393,
+                            151.077962
+                        ],
+                        [
+                            -33.789442,
+                            151.078029
+                        ],
+                        [
+                            -33.78947,
+                            151.078118
+                        ],
+                        [
+                            -33.789472,
+                            151.078209
+                        ],
+                        [
+                            -33.789441,
+                            151.078535
+                        ],
+                        [
+                            -33.789371,
+                            151.079212
+                        ],
+                        [
+                            -33.789361,
+                            151.079342
+                        ],
+                        [
+                            -33.789365,
+                            151.079495
+                        ],
+                        [
+                            -33.789379,
+                            151.079636
+                        ],
+                        [
+                            -33.789458,
+                            151.080343
+                        ],
+                        [
+                            -33.789442,
+                            151.080355
+                        ],
+                        [
+                            -33.789429,
+                            151.080371
+                        ],
+                        [
+                            -33.789421,
+                            151.080392
+                        ],
+                        [
+                            -33.789418,
+                            151.080415
+                        ],
+                        [
+                            -33.789421,
+                            151.080437
+                        ],
+                        [
+                            -33.789429,
+                            151.080457
+                        ],
+                        [
+                            -33.789442,
+                            151.080473
+                        ],
+                        [
+                            -33.789457,
+                            151.080484
+                        ],
+                        [
+                            -33.789475,
+                            151.080489
+                        ],
+                        [
+                            -33.789493,
+                            151.080488
+                        ],
+                        [
+                            -33.78951,
+                            151.080481
+                        ],
+                        [
+                            -33.789525,
+                            151.080468
+                        ],
+                        [
+                            -33.789586,
+                            151.08052
+                        ],
+                        [
+                            -33.790135,
+                            151.081053
+                        ],
+                        [
+                            -33.790319,
+                            151.081244
+                        ],
+                        [
+                            -33.790401,
+                            151.081343
+                        ],
+                        [
+                            -33.790404,
+                            151.081397
+                        ],
+                        [
+                            -33.790403,
+                            151.08143
+                        ],
+                        [
+                            -33.790388,
+                            151.081523
+                        ],
+                        [
+                            -33.790384,
+                            151.08156
+                        ],
+                        [
+                            -33.790384,
+                            151.081591
+                        ],
+                        [
+                            -33.790389,
+                            151.081626
+                        ],
+                        [
+                            -33.790384,
+                            151.081647
+                        ],
+                        [
+                            -33.79028,
+                            151.081639
+                        ],
+                        [
+                            -33.790103,
+                            151.081646
+                        ],
+                        [
+                            -33.789915,
+                            151.081648
+                        ],
+                        [
+                            -33.789863,
+                            151.081656
+                        ],
+                        [
+                            -33.78982,
+                            151.081664
+                        ],
+                        [
+                            -33.789779,
+                            151.081678
+                        ],
+                        [
+                            -33.789732,
+                            151.081702
+                        ],
+                        [
+                            -33.78968,
+                            151.081735
+                        ],
+                        [
+                            -33.789806,
+                            151.081845
+                        ],
+                        [
+                            -33.789842,
+                            151.081866
+                        ],
+                        [
+                            -33.789877,
+                            151.081875
+                        ],
+                        [
+                            -33.789918,
+                            151.081876
+                        ],
+                        [
+                            -33.790094,
+                            151.081865
+                        ],
+                        [
+                            -33.790318,
+                            151.08186
+                        ],
+                        [
+                            -33.790363,
+                            151.081855
+                        ],
+                        [
+                            -33.790407,
+                            151.081843
+                        ],
+                        [
+                            -33.790438,
+                            151.081819
+                        ],
+                        [
+                            -33.790466,
+                            151.081784
+                        ]
+                    ],
+                    "properties": {
+                        "vehicleAccess": [
+                            {
+                                "height": 0,
+                                "halfWidth": 0,
+                                "doorWidth": 2000,
+                                "attributes": 0,
+                                "areaToStay": 0,
+                                "areaToMove": 0,
+                                "equipments": [
+                                    {
+                                        "vehicleEquipment": {
+                                            "equipmentType": 1,
+                                            "length": 0,
+                                            "width": 0,
+                                            "lengthAtPl": 0,
+                                            "widthAtPl": 0,
+                                            "maxWeight": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "PlanLowFloorVehicle": "1",
+                        "PlanWheelChairAccess": "1"
+                    }
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+            }
+        },
+        {
+            "isAdditional": false,
+            "interchanges": 0,
+            "legs": [
+                {
+                    "duration": 888,
+                    "distance": 991,
+                    "origin": {
+                        "isGlobalId": true,
+                        "id": "G2122127",
+                        "name": "Terry Rd opp Tarrants Ave, Eastwood",
+                        "disassembledName": "Terry Rd opp Tarrants Ave",
+                        "type": "stop",
+                        "coord": [
+                            -33.788946,
+                            151.072866
+                        ],
+                        "parent": {
+                            "id": "95352005|1",
+                            "name": "Eastwood",
+                            "type": "locality"
+                        },
+                        "departureTimePlanned": "2024-01-07T20:00:00Z",
+                        "departureTimeEstimated": "2024-01-07T20:00:00Z",
+                        "properties": {
+                            "stopId": "10117225",
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_707142dep_7320_4544_22564687_0005f1b.pdf"
+                                }
+                            ]
+                        }
+                    },
+                    "destination": {
+                        "isGlobalId": true,
+                        "id": "212210",
+                        "name": "Eastwood Station, Eastwood",
+                        "disassembledName": "Eastwood Station",
+                        "type": "stop",
+                        "coord": [
+                            -33.790096,
+                            151.081953
+                        ],
+                        "parent": {
+                            "id": "95352005|1",
+                            "name": "Eastwood",
+                            "type": "locality"
+                        },
+                        "arrivalTimePlanned": "2024-01-07T20:14:48Z",
+                        "arrivalTimeEstimated": "2024-01-07T20:14:48Z",
+                        "properties": {
+                            "stopId": "10101199",
+                            "downloads": [
+                                {
+                                    "type": "RM",
+                                    "url": "FILELOAD?Filename=7320_707142dep_7320_4544_22564687_0005f1b.pdf"
+                                }
+                            ]
+                        }
+                    },
+                    "transportation": {
+                        "product": {
+                            "class": 100,
+                            "name": "footpath",
+                            "iconId": 100
+                        },
+                        "properties": {
+                            "tripCode": 0,
+                            "lineDisplay": "LINE"
+                        }
+                    },
+                    "infos": [],
+                    "coords": [
+                        [
+                            -33.788946,
+                            151.072866
+                        ],
+                        [
+                            -33.789008,
+                            151.072888
+                        ],
+                        [
+                            -33.788978,
+                            151.073005
+                        ],
+                        [
+                            -33.788829,
+                            151.073697
+                        ],
+                        [
+                            -33.788791,
+                            151.073939
+                        ],
+                        [
+                            -33.788769,
+                            151.074074
+                        ],
+                        [
+                            -33.788657,
+                            151.074685
+                        ],
+                        [
+                            -33.7885,
+                            151.075556
+                        ],
+                        [
+                            -33.788239,
+                            151.07685
+                        ],
+                        [
+                            -33.78853,
+                            151.077146
+                        ],
+                        [
+                            -33.789053,
+                            151.077622
+                        ],
+                        [
+                            -33.789396,
+                            151.077964
+                        ],
+                        [
+                            -33.789441,
+                            151.078027
+                        ],
+                        [
+                            -33.789471,
+                            151.078117
+                        ],
+                        [
+                            -33.789471,
+                            151.078206
+                        ],
+                        [
+                            -33.789441,
+                            151.078539
+                        ],
+                        [
+                            -33.789411,
+                            151.078799
+                        ],
+                        [
+                            -33.789374,
+                            151.079212
+                        ],
+                        [
+                            -33.789359,
+                            151.079338
+                        ],
+                        [
+                            -33.789366,
+                            151.079491
+                        ],
+                        [
+                            -33.789381,
+                            151.079635
+                        ],
+                        [
+                            -33.789404,
+                            151.079841
+                        ],
+                        [
+                            -33.789426,
+                            151.080057
+                        ],
+                        [
+                            -33.789448,
+                            151.080237
+                        ],
+                        [
+                            -33.789456,
+                            151.080344
+                        ],
+                        [
+                            -33.789478,
+                            151.080335
+                        ],
+                        [
+                            -33.789501,
+                            151.080344
+                        ],
+                        [
+                            -33.789516,
+                            151.080353
+                        ],
+                        [
+                            -33.78953,
+                            151.080371
+                        ],
+                        [
+                            -33.789538,
+                            151.080389
+                        ],
+                        [
+                            -33.789545,
+                            151.080407
+                        ],
+                        [
+                            -33.789545,
+                            151.080434
+                        ],
+                        [
+                            -33.789538,
+                            151.080452
+                        ],
+                        [
+                            -33.789523,
+                            151.08047
+                        ],
+                        [
+                            -33.789583,
+                            151.080524
+                        ],
+                        [
+                            -33.790001,
+                            151.080919
+                        ],
+                        [
+                            -33.790135,
+                            151.081054
+                        ],
+                        [
+                            -33.79009,
+                            151.081117
+                        ],
+                        [
+                            -33.790299,
+                            151.081332
+                        ],
+                        [
+                            -33.790322,
+                            151.08135
+                        ],
+                        [
+                            -33.790337,
+                            151.081377
+                        ],
+                        [
+                            -33.790352,
+                            151.081413
+                        ],
+                        [
+                            -33.790352,
+                            151.08144
+                        ],
+                        [
+                            -33.790352,
+                            151.081467
+                        ],
+                        [
+                            -33.790344,
+                            151.081494
+                        ],
+                        [
+                            -33.790329,
+                            151.081521
+                        ],
+                        [
+                            -33.790314,
+                            151.081539
+                        ],
+                        [
+                            -33.790299,
+                            151.081557
+                        ],
+                        [
+                            -33.790277,
+                            151.081566
+                        ],
+                        [
+                            -33.790247,
+                            151.081566
+                        ],
+                        [
+                            -33.790225,
+                            151.081575
+                        ],
+                        [
+                            -33.790098,
+                            151.081575
+                        ],
+                        [
+                            -33.790105,
+                            151.081647
+                        ],
+                        [
+                            -33.790105,
+                            151.08171
+                        ],
+                        [
+                            -33.790105,
+                            151.081728
+                        ],
+                        [
+                            -33.79009,
+                            151.081782
+                        ],
+                        [
+                            -33.79009,
+                            151.081862
+                        ],
+                        [
+                            -33.790098,
+                            151.081961
+                        ],
+                        [
+                            -33.790096,
+                            151.081953
+                        ]
+                    ],
+                    "pathDescriptions": [
+                        {
+                            "turnDirection": "UNKNOWN",
+                            "manoeuvre": "ORIGIN",
+                            "name": "Terry Road",
+                            "niveau": 0,
+                            "coord": [
+                                -33.789008,
+                                151.07289
+                            ],
+                            "duration": 0,
+                            "cumDuration": 0,
+                            "distance": 0,
+                            "cumDistance": 0,
+                            "fromCoordsIndex": 0,
+                            "toCoordsIndex": 1
+                        },
+                        {
+                            "turnDirection": "STRAIGHT",
+                            "manoeuvre": "KEEP",
+                            "name": "Terry Road/Hillview Road",
+                            "niveau": 0,
+                            "coord": [
+                                -33.789008,
+                                151.07289
+                            ],
+                            "skyDirection": 74,
+                            "duration": 687,
+                            "cumDuration": 687,
+                            "distance": 764,
+                            "cumDistance": 764,
+                            "fromCoordsIndex": 1,
+                            "toCoordsIndex": 24
+                        },
+                        {
+                            "turnDirection": "RIGHT",
+                            "manoeuvre": "TURN",
+                            "name": "tertiary road",
+                            "niveau": 0,
+                            "coord": [
+                                -33.789455,
+                                151.080347
+                            ],
+                            "skyDirection": 97,
+                            "duration": 10,
+                            "cumDuration": 697,
+                            "distance": 11,
+                            "cumDistance": 775,
+                            "fromCoordsIndex": 24,
+                            "toCoordsIndex": 29
+                        },
+                        {
+                            "turnDirection": "STRAIGHT",
+                            "manoeuvre": "CONTINUE",
+                            "name": "tertiary road",
+                            "niveau": 0,
+                            "coord": [
+                                -33.789535,
+                                151.080394
+                            ],
+                            "skyDirection": 117,
+                            "duration": 7,
+                            "cumDuration": 704,
+                            "distance": 7,
+                            "cumDistance": 783,
+                            "fromCoordsIndex": 29,
+                            "toCoordsIndex": 33
+                        },
+                        {
+                            "turnDirection": "RIGHT",
+                            "manoeuvre": "TURN",
+                            "name": "Hillview Road",
+                            "niveau": 0,
+                            "coord": [
+                                -33.789523,
+                                151.080469
+                            ],
+                            "skyDirection": 52,
+                            "duration": 77,
+                            "cumDuration": 782,
+                            "distance": 86,
+                            "cumDistance": 870,
+                            "fromCoordsIndex": 33,
+                            "toCoordsIndex": 36
+                        },
+                        {
+                            "turnDirection": "LEFT",
+                            "manoeuvre": "TURN",
+                            "name": "cross-walk",
+                            "niveau": 0,
+                            "coord": [
+                                -33.790135,
+                                151.081059
+                            ],
+                            "skyDirection": 140,
+                            "duration": 4,
+                            "cumDuration": 786,
+                            "distance": 7,
+                            "cumDistance": 877,
+                            "fromCoordsIndex": 36,
+                            "toCoordsIndex": 37,
+                            "properties": {
+                                "OUTDOOR_TYPE": "ZEBRA_CROSSING"
+                            }
+                        },
+                        {
+                            "turnDirection": "RIGHT",
+                            "manoeuvre": "TURN",
+                            "name": "",
+                            "niveau": 0,
+                            "coord": [
+                                -33.790088,
+                                151.081122
+                            ],
+                            "skyDirection": 50,
+                            "duration": 69,
+                            "cumDuration": 856,
+                            "distance": 77,
+                            "cumDistance": 954,
+                            "fromCoordsIndex": 37,
+                            "toCoordsIndex": 51,
+                            "properties": {
+                                "OUTDOOR_TYPE": "HIKING_TRAIL"
+                            }
+                        },
+                        {
+                            "turnDirection": "RIGHT",
+                            "manoeuvre": "TURN",
+                            "name": "",
+                            "niveau": 0,
+                            "coord": [
+                                -33.7901,
+                                151.081575
+                            ],
+                            "skyDirection": 0,
+                            "duration": 11,
+                            "cumDuration": 867,
+                            "distance": 12,
+                            "cumDistance": 967,
+                            "fromCoordsIndex": 51,
+                            "toCoordsIndex": 53,
+                            "properties": {
+                                "INDOOR_TYPE": "BUILDING_WAY"
+                            }
+                        },
+                        {
+                            "turnDirection": "STRAIGHT",
+                            "manoeuvre": "CONTINUE",
+                            "name": "outdoor stairs",
+                            "niveau": 0,
+                            "coord": [
+                                -33.790104,
+                                151.081705
+                            ],
+                            "skyDirection": 92,
+                            "duration": 1,
+                            "cumDuration": 869,
+                            "distance": 2,
+                            "cumDistance": 969,
+                            "fromCoordsIndex": 53,
+                            "toCoordsIndex": 54,
+                            "properties": {
+                                "OUTDOOR_TYPE": "OUTDOOR_STAIRS"
+                            }
+                        },
+                        {
+                            "turnDirection": "STRAIGHT",
+                            "manoeuvre": "CONTINUE",
+                            "name": "",
+                            "niveau": 0,
+                            "coord": [
+                                -33.790104,
+                                151.081727
+                            ],
+                            "skyDirection": 88,
+                            "duration": 4,
+                            "cumDuration": 873,
+                            "distance": 5,
+                            "cumDistance": 974,
+                            "fromCoordsIndex": 54,
+                            "toCoordsIndex": 55,
+                            "properties": {
+                                "OUTDOOR_TYPE": "HIKING_TRAIL"
+                            }
+                        },
+                        {
+                            "turnDirection": "STRAIGHT",
+                            "manoeuvre": "CONTINUE",
+                            "name": "",
+                            "niveau": 0,
+                            "coord": [
+                                -33.790093,
+                                151.08178
+                            ],
+                            "skyDirection": 74,
+                            "duration": 15,
+                            "cumDuration": 888,
+                            "distance": 16,
+                            "cumDistance": 991,
+                            "fromCoordsIndex": 55,
+                            "toCoordsIndex": 58,
+                            "properties": {
+                                "INDOOR_TYPE": "BUILDING_WAY",
+                                "TRACK_ILLUMINATED": "true"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "fare": {
+                "tickets": []
+            },
+            "daysOfService": {
+                "rvb": ""
+            }
+        }
+    ]
+}

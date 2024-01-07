@@ -1,0 +1,21 @@
+{
+  "name": "MMM-NSW-BusRealtime",
+  "version": "1.0.0",
+  "description": "NSW Bus Realtime Data",
+  "main": "MMM-NSW-BusRealtime.js",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "latest",
+    "grunt": "latest",
+    "grunt-eslint": "latest",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-markdownlint": "^3.1.6",
+    "grunt-stylelint": "latest",
+    "grunt-yamllint": "latest",
+    "moment-duration-format": "latest",
+    "time-grunt": "latest",
+    "moment": "latest",
+    "request": "latest"
+  }
+}
