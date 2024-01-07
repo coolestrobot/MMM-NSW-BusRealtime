@@ -1,0 +1,92 @@
+/*
+ *
+ * MMM-NSW-BusRealtime
+ *
+ * 
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+
+.late {
+    background-color: red;
+}
+.ontime{
+    background-color: green;
+}
+.early{
+    background-color: blue;
+}
+.notsure{
+    background-color: orange;
+}
+.arrivalTime{
+    background-color: white;
+    color: black;
+    padding: 0px 10px;
+}
+.dueIn{
+    text-align: center;
+}
+.dueInMins{
+
+}
+.dueInLabel{
+    font-size: small;
+    line-height: initial;
+}
+/* .dueInArrivalDelay{
+    font-size: x-small;
+    display: inline;
+} */
+.busStopId{
+	color: green;
+}
+.busTable{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.busLastUpdatedLabel {
+	font-size: small;
+    display: inline;
+}
+.busLastUpdated {
+	font-size: small;
+    color: white;
+    padding-top: 5px;
+    display: inline;
+}
+.poweredBy{
+    font-size: small;
+}
+.CallInProgressText{
+    font-size: small;
+}
+
+
+/* Calendar dates */
+td.time.light {
+    color: navajowhite;
+}
+
+/* Clock - Date */
+.date.normal.medium {
+    color: ghostwhite;
+}
+
+
+/* Weather */
+/* Day */
+td.day {
+    color: white;
+}
+
+/* Strava */
+.light {
+    color: white;
+}
+
+
+
